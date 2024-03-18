@@ -1,0 +1,42 @@
+.home-container {
+  height: 300px;
+  color: white;
+  margin-left: 80px;
+}
+.home-content h1 {
+  padding-top: 80px;
+}
+.home-content h2 {
+  color: lightblue;
+}
+.btn-hire {
+  background-color: rgb(248, 248, 61);
+  width: 8%;
+}
+.btn-hire:hover {
+  background-color: white;
+  width: 12%;
+  transition: 1s;
+}
+.btn-cv {
+  background-color: orange;
+  width: 8%;
+}
+.btn-cv:hover {
+  background-color: white;
+  padding: 6px 2px;
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    margin: 0;
+    padding: 0;
+    padding-top: 32px;
+  }
+  .btn-cv {
+    width: 20%;
+  }
+  .btn-hire {
+    width: 20%;
+  }
+}

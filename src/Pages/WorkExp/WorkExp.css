@@ -1,0 +1,26 @@
+.workExp {
+  margin: 26px auto;
+  width: 89%;
+  padding: 32px 12px;
+  margin-left: 120px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+.vertical-timeline-element-date {
+  color: white;
+}
+.workPera {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/*Responsive */
+@media (max-width: 600px) {
+  .workExp {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 22px;
+    margin-top: 50px;
+  }
+}

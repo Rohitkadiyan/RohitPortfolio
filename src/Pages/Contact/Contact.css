@@ -1,0 +1,55 @@
+.Contact {
+  margin: 26px auto;
+  width: 89%;
+  padding: 12px;
+  margin-left: 120px;
+  border-radius: 5px;
+}
+
+.card0 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card1 img {
+  width: 100%;
+  height: 52vh;
+}
+.form-details {
+  text-align: center;
+}
+.form-details input {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 6px;
+}
+.form-details textarea {
+  width: 90%;
+  padding: 5px;
+}
+.footer {
+  margin: 26px auto;
+  width: 89%;
+  padding: 12px;
+  margin-left: 120px;
+  border-radius: 5px;
+}
+
+/*Responsive */
+@media (max-width: 600px) {
+  .Contact {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 22px;
+    margin-top: 50px;
+  }
+  .ContactCardImg {
+    width: 100%;
+  }
+  .footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 22px;
+    margin-top: 50px;
+  }
+}

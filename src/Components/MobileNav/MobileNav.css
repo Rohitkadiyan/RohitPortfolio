@@ -1,0 +1,34 @@
+.mobile-nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.mobile-nav-header {
+  height: 50px;
+  width: 100%;
+  background-color: #b5eda4;
+  padding: 8px;
+}
+.mobile-nav-title {
+  margin-left: 12px;
+  /* color: white; */
+  font-weight: bold;
+  text-transform: capitalize;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.mobile-menus .nav-items {
+  height: auto;
+  width: 200px;
+  background-color: black;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
